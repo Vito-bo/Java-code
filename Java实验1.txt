@@ -1,0 +1,25 @@
+//获取控制台输入的两个整型参数。输出两个整型参数和。
+import java.util.*;
+
+public class Sum {
+    public static void main (String[] args) {
+  	      //创建Scanner类对象
+ 	       Scanner input = new Scanner(System.in);
+   	     //输入俩个数字
+   	     int a = input.nextInt();
+   	     int b = input.nextInt();
+ 	       System.out.println((a + b));
+    }
+}
+
+//在 /home/project/ 目录下新建文件 MethodTest.java，
+//在其中新建一个方法 methodDemo，运行该方法，在控制台输出 Hello Shiyanlou。
+public class MethodTest {
+    public static void main (String[] args) {
+   		     methodDemo();
+    }
+    public static void methodDemo() {
+    	  	  System.out.println("Hello Shiyanlou");
+    }
+}
+
